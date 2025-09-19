@@ -561,5 +561,6 @@ def batch_process_wav_dir(wav_dir: str) -> None:
 
 
 if __name__ == "__main__":
-
+    WAV_DIRECTORY = "D:\\xxx\\xxx"  
     batch_process_wav_dir(WAV_DIRECTORY)
+
